@@ -5,7 +5,7 @@ package company;
 public abstract class Employee implements Workable{
     //フィールド
     protected final String name;
-    private final Department department;//protectedに変更
+    protected final Department department;//protectedに変更
     private final String position;
     private final int employeeId;
     
